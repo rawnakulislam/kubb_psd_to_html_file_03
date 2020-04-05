@@ -1,0 +1,556 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:300,400|Roboto:400,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    font-family: 'Roboto';
+}
+p{
+    font-family: 'Roboto Slab';
+}
+ol,
+ul{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*end of common css*/
+.mainmenu {
+	background: rgba(0, 0, 0, .44);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.mainmenu .logo {
+	float: left;
+	width: 140px;
+	padding: 36px 0;
+}
+.mainmenu .menubar{
+    float: left;
+    width: 1000px;
+}
+.mainmenu .menubar ul{
+    text-align: right;
+}
+.mainmenu .menubar ul li{
+    display: inline-block;
+}
+.mainmenu .menubar ul li a{
+    text-transform: uppercase;
+    color: #f5f5f5;
+    padding: 41px 0;
+    padding-left: 43px;
+    font-family: 'Roboto Condensed';
+}
+#ho{
+    color: red;
+}
+/*end of menu*/
+/*start of banner*/
+#banner{
+    background: url(../images/baner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+#banner h1{
+    position: absolute;
+    font-size: 50px;
+    color: #ffffff;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+}
+#banner h2{
+    font-size: 40px;
+    position: absolute;
+    font-size: 40px;
+    top: 54%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%,50%);
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    
+}
+#banner p{
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%,50%);
+    text-transform: uppercase;
+}
+/*end of banner*/
+#content1{
+    text-align: center;
+}
+
+#content1 .textdoc h3{
+    padding: 80px 0 30px 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+#content1 .textdoc p{
+    font-size: 14px;
+    padding: 0 0 80px 0;
+    font-weight: 300;
+}
+#content .filedoc h4{
+    padding: ;
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+}
+.filedoc1{
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+.box {
+	width: 94%;
+	margin: 12px auto;
+}
+.box img{
+    width: 100%;
+}
+.box1 {
+	width: 97%;
+	margin: 12px auto;
+}
+.box1 h4{
+    padding: 25px 0 0 0 ;
+} 
+.box1 p{
+    padding-top: 10px;
+}
+/**/
+.filedoc2{
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+/**/
+.filedoc3{
+    width: 30%;
+    border: 1px solid black;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+/**/
+#content2{
+    background: #222;
+    padding-bottom: 50px;
+}
+.aaa{
+    text-align: center;
+}
+.aaa h3 {
+	text-align: center;
+	color: #f5f5f5;
+	padding-top:50px;
+	padding-bottom: 50px;
+	position: relative;
+	display: inline-block;
+    text-transform: uppercase;
+}
+.aaa h3:before {
+	position: absolute;
+	background: #fff;
+	content: '';
+	width: 100px;
+	height: 1px;
+	left: 100%;
+	transform: translateY(-50%);
+	top: 50%;
+}
+.aaa h3:after {
+	position: absolute;
+	background: #fff;
+	content: '';
+	width: 100px;
+	height: 1px;
+	right: 100%;
+	transform: translateY(-50%);
+	top: 50%;
+}
+/**/
+#content2 .one{
+    width: 25%;
+    float: left;
+}
+#content2 .one img{
+    width: 100%;
+}
+#content2 .two{
+    width: 25%;
+    float: left;
+}
+#content2 .two img{
+    width: 100%;
+}
+#content2 .three{
+    width: 25%;
+    float: left;
+}
+#content2 .three img{
+    width: 100%;
+}
+#content2 .four{
+    width: 25%;
+    float: left;
+}
+#content2 .four img{
+    width: 100%;
+}
+/**/
+#content2 .instra {
+	margin: 0 auto;
+	width: 16%;
+	border: 1px solid white;
+	padding: 11px 10px;
+    margin-top: 50px;
+    
+}
+.instra .instralogo{
+    width: 10%;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+}
+.instra a{
+    color: #fff;
+}
+.instra .instratext p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 3px;
+}
+/**/
+.bbb{
+    text-align: center;
+}
+.bbb h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.bbb h3:before {
+	position: absolute;
+	background: #222;
+	content: '';
+	width: 100px;
+	height: 1px;
+	left: 100%;
+	transform: translateY(-50%);
+	top: 50%;
+}
+.bbb h3:after {
+	position: absolute;
+	background: #222;
+	content: '';
+	width: 100px;
+	height: 1px;
+	right: 100%;
+	transform: translateY(-50%);
+	top: 50%;
+}
+/**/
+.take{
+    text-align: center;
+    
+}
+.boxx1 img{
+    width: 100%;
+}
+.boxxx1 p{
+    padding: 15px 0;
+    font-size: 14px;
+}
+.take .take1{
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    margin-bottom: 80px;
+}
+.take1 h4{
+    padding: 25px 0 15px 0;
+}
+.boxxxx1 .a{
+    width: 35%;
+    float: left;
+    padding-bottom: 17px;
+    position: relative;
+}
+.boxxxx1 .a:before {
+	position: absolute;
+	background: #222;
+	content: '';
+	width: 100px;
+	height: 1px;
+	left: 9%;
+	transform: translateY(-50%);
+    top: 52%;
+}
+.boxxxx1 .a p{
+    font-size: 11px;
+}
+.boxxxx1 .b{
+    width: 20%;
+    float: right;
+    padding-bottom: 17px;
+}
+.boxxxx1 .b i{
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+}
+.boxxxx1 .b p{
+	float: left;
+	font-size: 12px;
+	padding: 0px 5px;
+}
+/**/
+.take2 {
+	width: 30%;
+	float: left;
+	margin-left: 55px;
+	border: 1px solid black;
+    margin-bottom: 80px;
+}
+.take2 h4{
+    padding: 25px 0 15px 0;
+}
+/**/
+.take3{
+    width: 30%;
+    float: right;
+    border: 1px solid black;
+    margin-bottom: 80px;
+}
+.take3 h4{
+    padding: 25px 0 15px 0;
+}
+/**/  
+#content4 {
+    margin-bottom: 3px;
+}
+#content4 .conphoto{
+    width: 50%;
+    float: left;
+    margin-bottom: 80px;
+}
+#content4 .conphoto h4{
+    padding: 10px 0;
+    position: relative;
+}
+#content4 .conphoto h4:before {
+	position: absolute;
+	background: #222;
+	content: '';
+	width: 100px;
+	height: 1px;
+	left: 21%;
+	transform: translateY(-50%);
+    top: 50%;
+}
+#content4 .context{
+    width: 50%;
+    float: left;
+    padding-bottom: 83px;
+}
+#content4 .context h4{
+    padding: 10px 0;
+    position: relative;
+}
+#content4 .context h4::before {
+	position: absolute;
+	background: #222;
+	content: '';
+	width: 100px;
+	height: 1px;
+	left: 16%;
+	transform: translateY(-50%);
+    top: 50%;
+}
+/**/
+.conphoto .photo1{
+    width: 35%;
+    float: left;
+}
+.conphoto .photo1 img{
+    width: 100%;
+}
+.conphoto .photo2{
+    width: 65%;
+    float: left;
+}
+.photo3 p {
+	float: left;
+	font-size: 17px;
+	padding:25px;
+
+}
+.photo4 p {
+	font-size: 14px;
+    padding: 25px;
+    padding: 25px 25px 15px 25px;
+}
+/**/
+.camera .pic{
+    width: 15%;
+    float: left;
+    padding: 23px 10px;
+}
+.pictext h5{
+    font-size: 17px;
+    padding: 0 10px 10px 0;
+}
+.camera .pictext{
+    width: 85%;
+    float: left;
+}
+/**/
+.motion .pic{
+    width: 15%;
+    float: left;
+    padding: 29px 10px;
+}
+.area h5{
+    font-size: 17px;
+    padding: 12px 0 10px 0;
+}
+.motion .area{
+    width: 85%;
+    float: left;
+}
+/**/
+.motion1 .pic{
+    width: 15%;
+    float: left;
+    padding: 29px 10px;
+}
+.area1 h5{
+    font-size: 17px;
+    padding: 13px 0 10px 0;
+}
+.motion1 .area1{
+    width: 85%;
+    float: left;
+}
+/**/
+.content5{
+    background: #222222;
+    padding: 20px 0;
+    
+}
+.content5 h5{
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.content5 i{
+    color: #28B8D8;
+}
+.conn1{
+    float: left;
+    width: 25%;
+}
+/**/
+.f2 {
+	width: 7%;
+	float: left;
+	padding-top: 9px;
+}
+.f3{
+    width:90%;
+}
+.f4{
+    padding-left: 19px;
+}
+.f6 {
+	width: 7%;
+	float: left;
+	padding-top: 9px;
+}
+.f7{
+    width:90%;
+}
+.f9 {
+	width: 7%;
+	float: left;
+	padding-top: 9px;
+}
+.f10{
+    width:90%;
+}
+/**/
+.conn1 p{
+    padding: 10px 15px 3px 0 ;
+    font-size: 14px;
+    color: #808080;
+}
+.conn2{
+    float: left;
+    width: 25%;
+}
+.conn2 p{
+    padding: 10px 15px 10px 0 ;
+    font-size: 14px;
+    color: #808080;
+}
+.conn3{
+    float: left;
+    width: 25%;
+}
+.conn3 p{
+    padding: 10px 15px 7px 0 ;
+    font-size: 14px;
+    color: #808080;
+}
+.conn4{
+    float: left;
+    width: 25%;
+}
+.conn4 p{
+    padding: 10px 15px 7px 0 ;
+    font-size: 14px;
+    color: #808080;
+}
+/**/
+#content6{
+    background: #363636;
+}
+#content6 p{
+    color: #fff;
+    font-size: 10px;
+    padding: 25px 0;
+}
